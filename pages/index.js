@@ -10,11 +10,11 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Happy Birthday Big!
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Hope you have a great year ahead and make the most of your unfortunately timed birthday.
         </p>
 
         <div className="grid">
@@ -49,19 +49,12 @@ export default function Home() {
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
+        Made with ❤️ in Vancouver
       </footer>
 
       <style jsx>{`
         .container {
-          min-height: 100vh;
+          height: 100vh;
           padding: 0 0.5rem;
           display: flex;
           flex-direction: column;
@@ -80,7 +73,7 @@ export default function Home() {
 
         footer {
           width: 100%;
-          height: 100px;
+          height: 50px;
           border-top: 1px solid #eaeaea;
           display: flex;
           justify-content: center;
@@ -176,10 +169,6 @@ export default function Home() {
           margin: 0;
           font-size: 1.25rem;
           line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
         }
 
         @media (max-width: 600px) {
