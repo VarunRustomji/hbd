@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Nishreen's Birthday</title>
+        <link rel="icon" href="/iii.png" />
       </Head>
 
       <main>
@@ -17,12 +17,13 @@ export default function Home() {
           Hope you have a great year ahead 🎉
         </p>
 
-        <div className="margin-baloon">
-          <img src="/iii.png" />
-          <img src="/party.jpg" />
-          <img src="/iii.png" />
+        <div className="pics">
+          <img className="margin-baloon" src="/iii.png" />
+          <img className="big" src="/pic.jpeg" />
+          <img className="margin-baloon" src="/iii.png" />
 
         </div>
+
 
       </main>
 
@@ -38,7 +39,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          background-color: #2aebbd;
+          background-image: linear-gradient(150deg, #53ed6a 15%, #05d5ff 50%, #a6ffcb );
         }
 
         main {
@@ -75,13 +76,17 @@ export default function Home() {
           font-size: 1.5rem;
         }
 
-        .margin-baloon {
+        .pics {
           display: flex;
           justify-content: space-between;
         }
 
-        .margin-baloon img {
+        .margin-baloon {
           width: 450px;
+          height: 400px;
+        }
+
+        .big {
           height: 400px;
         }
 
